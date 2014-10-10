@@ -54,7 +54,11 @@
         
                 <br /><br />
         
-                <asp:GridView ID="loanGridView" runat="server" />
+                <asp:GridView ID="loanGridView" runat="server" >
+                    <Columns>
+                        <asp:BoundField ReadOnly="True" />
+                    </Columns>
+        </asp:GridView>
         <% End If%>
             
         </div>
