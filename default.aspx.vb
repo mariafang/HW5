@@ -82,5 +82,16 @@ Partial Class _Default
 
     End Sub
 
+    Protected Sub btn_Clear_Click(sender As Object, e As EventArgs) Handles btn_Clear.Click
+
+        'Clear all the inputs user entered
+        tbLoanAmt.Text = String.Empty
+        tbAnnualInterest.Text = String.Empty
+        tbLoanTerm.Text = String.Empty
+
+        'Clear the monthly payment label
+        lblMonthlyPmt.Text = String.Empty
+
+    End Sub
 End Class
 
