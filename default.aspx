@@ -11,19 +11,26 @@
     <form id="form1" runat="server">
     <div>
     
-    Mike's Mortgage Calculator
-        
-        <br /><br />
+        Yuan's Mortgage Calculator
+        <br />
+        <br />
+        * indicates required fields<br /><br />
      
-        Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
+        Loan Amount * :<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
+                  
+        <asp:RequiredFieldValidator ID="rfv_loanAmount" runat="server" ControlToValidate="tbLoanAmt" ErrorMessage="Please enter your loan amount"></asp:RequiredFieldValidator>
                   
         <br /><br />      
         
-        Annual Interest %: <asp:TextBox ID="tbAnnualInterest" runat="server" ></asp:TextBox>
+        Annual Interest % * : <asp:TextBox ID="tbAnnualInterest" runat="server" ></asp:TextBox>
+        
+        <asp:RequiredFieldValidator ID="rfv_annualInterest" runat="server" ControlToValidate="tbAnnualInterest" ErrorMessage="Please enter the annual interest rate"></asp:RequiredFieldValidator>
         
         <br /><br />
 
-        Loan Term (Yrs): <asp:TextBox ID="tbLoanTerm" runat="server" ></asp:TextBox>
+        Loan Term (Yrs) * : <asp:TextBox ID="tbLoanTerm" runat="server" ></asp:TextBox>
+        
+        <asp:RequiredFieldValidator ID="rfv_loanTerm" runat="server" ControlToValidate="tbLoanTerm" ErrorMessage="Please enter the loan term"></asp:RequiredFieldValidator>
         
         <br /><br />
 
