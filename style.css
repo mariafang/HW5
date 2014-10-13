@@ -1,1 +1,14 @@
-body {background-color:pink; color:black}
+body {background-color:#FFD47A; color:black;}
+
+.bold {font-weight:bold; font-size: 24px;}
+
+.star {color: red;}
+
+/* CSS to format the gridview */
+.cssgridview{width:auto; margin:5px 0 10px 0; border:solid 1px #54E33F; border-collapse:collapse; text-align:center; font-family:"Comic Sans MS"; color: black;}
+
+.cssgridview td{padding:10px; border:solid 1px #54E33F; color:black;}
+
+.cssgridview th{padding:10px; color:#FF9EB4; background:#321870; border-lef:solid 1px black; font-size:0.9em;}
+
+.cssgridview.alt{background-color:#FF9EB4;}
