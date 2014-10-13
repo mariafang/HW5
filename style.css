@@ -11,4 +11,4 @@ body {background-color:#FFD47A; color:black;}
 
 .cssgridview th{padding:10px; color:#FF9EB4; background:#321870; border-lef:solid 1px black; font-size:0.9em;}
 
-.cssgridview.alt{background-color:#FF9EB4;}
+.cssgridview .alt{background-color:#324E87;}
