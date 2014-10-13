@@ -16,6 +16,8 @@
         <br />
         * indicates required fields<br /><br />
      
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     
         Loan Amount * :<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
                   
         <asp:RequiredFieldValidator ID="rfv_loanAmount" runat="server" ControlToValidate="tbLoanAmt" ErrorMessage="Please enter your loan amount"></asp:RequiredFieldValidator>
@@ -27,6 +29,8 @@
         <asp:RequiredFieldValidator ID="rfv_annualInterest" runat="server" ControlToValidate="tbAnnualInterest" ErrorMessage="Please enter the annual interest rate"></asp:RequiredFieldValidator>
         
         <br /><br />
+
+        &nbsp;
 
         Loan Term (Yrs) * : <asp:TextBox ID="tbLoanTerm" runat="server" ></asp:TextBox>
         

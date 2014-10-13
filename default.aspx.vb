@@ -110,6 +110,10 @@ Partial Class _Default
         'Clear the monthly payment label
         lblMonthlyPmt.Text = String.Empty
 
+        'Clear the loan gridview
+        loanGridView.DataSource = Nothing
+        loanGridView.DataBind()
+
     End Sub
 End Class
 
